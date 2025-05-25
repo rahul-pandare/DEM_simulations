@@ -1,5 +1,12 @@
 import numpy as np
+'''
+May 24, 2025
+RVP
 
+Script to generate random packng of paricles in a 2D box for a  given packing fraction.
+This script uses a Verlet integration method to simulate particle dynamics, ensuring that particles do not overlap.
+This script has no wall potential, but uses a contact model to handle particle interactions.
+'''
 class randomPacking:
     def __init__(self, npp, pr, phi, lx, dt=1e-2, pm=1.0, kp=1.0, kw=1.0):
         self.npp = npp
