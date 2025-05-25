@@ -7,7 +7,11 @@ from matplotlib import colors as mcolors
 from randomPacking import randomPacking
 import os 
 
-#savePath = "/media/Linux_1TB/City College Dropbox/Rahul Pandare/CUNY/research/bidisperse_project/miscelleneous/DEM_codes/figures/manybodyinteractions/"
+'''
+May 24, 2025
+RVP
+Script to simulate hard-particle dynamics using the Cundall-Strack contact model.
+'''
 savePath = "/Users/rahul/City College Dropbox/Rahul Pandare/CUNY/research/bidisperse_project/miscelleneous/DEM_codes/figures"
 
 start_time = time.time()
@@ -202,21 +206,21 @@ with open(filename, 'w') as file:
     file.write(f'{npp} {pm} {lx:.6f} {phi} {mu}\n\n')
     
     file.write('#DEM with Cundall-Strack contact model\n')
-    file.write('#1 - Particle index 1\n')
-    file.write('#2 - Particle index 2\n')
-    file.write('#3 - Position of p1  \n')
-    file.write('#4 - Position of p1  \n')
-    file.write('#5 - Radii of P2     \n')
-    file.write('#6 - Radii of P1     \n')
-    file.write('#7-8   - Normal vector from P1 to P2 \n')
-    file.write('#9-10  - Tangential direction vector\n')
-    file.write('#11 - Velocity of P1 \n')
-    file.write('#12 - Velocity of P2 \n')
-    file.write('#13-14 - Normal contact force \n')
-    file.write('#15-16 - Tangential conact force\n')
-    file.write('#17 - Normal displacement (normal_displacement = a_i + a_j - r_ij)\n')
-    file.write('#18-19 - Tangential displacement\n')
-    
+    file.write('#1  - Particle index i\n')
+    file.write('#2  - Particle index j\n')
+    file.write('#3-4   - Position of particle i (x, y)\n')
+    file.write('#5-6   - Position of particle j (x, y)\n')
+    file.write('#7     - Radius of particle i\n')
+    file.write('#8     - Radius of particle j\n')
+    file.write('#9-10  - Normal vector from i to j\n')
+    file.write('#11-12 - Tangential direction vector\n')
+    file.write('#13-14 - Velocity of particle i (vx, vy)\n')
+    file.write('#15-16 - Velocity of particle j (vx, vy)\n')
+    file.write('#17-18 - Normal contact force (fx, fy)\n')
+    file.write('#19-20 - Tangential contact force (fx, fy)\n')
+    file.write('#21    - Normal displacement (overlap = a_i + a_j - r_ij)\n')
+    file.write('#22-23 - Tangential displacement vector (x, y)\n')
+
     # Intinializing counters
     iteration_count = 0 
     fig_count       = 0
