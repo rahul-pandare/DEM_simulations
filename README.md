@@ -6,6 +6,7 @@
        width="400"/><br/><br/>
   <em>Particle trajectories and particle-particle contacts (Hertzian-Mindlin)</em>
 </p>
+
 **Analysis of Discrete Element Method (DEM) simulations with two contact models: Cundall-Strack and Hertz-Mindlin**
 
 This repository contains code and data for DEM simulations comparing two widely used contact models:
