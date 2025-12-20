@@ -3,13 +3,13 @@
 <table>
 <tr>
 <td align="center">
-  <strong>Particle Interactions</strong><br/>
-  <img src="randomPacking_growing.mp4" alt="random packing GIF" width="350"/><br/>
+  <strong>Random packing initialization</strong><br/>
+  <img src="randomPacking_growing.gif" alt="random packing" width="385"/><br/>
   <em>Initializing system with random particle positions by growing.</em>
 </td>
 <td align="center">
   <strong>Particle Velocities</strong><br/>
-  <img src="NP_100_phi_0.5_Hertzian-Mindlin.gif" alt="particle trajectory and particle-particle contacts" width="410"/><br/>
+  <img src="NP_100_phi_0.5_Hertzian-Mindlin.gif" alt="particle trajectory and particle-particle contacts" width="380"/><br/>
   <em>Particle trajectories and particle-particle contacts (Hertzian-Mindlin).</em>
 </td>
 </tr>
