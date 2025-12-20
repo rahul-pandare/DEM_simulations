@@ -1,12 +1,28 @@
 # DEM Simulations
-<p align="center">
+
+<table>
+<tr>
+<td align="center">
+  <strong>Particle Interactions</strong><br/>
+  <img src="randomPacking_growing.mp4" alt="random packing GIF" width="350"/><br/>
+  <em>Initializing system with random particle positions by growing.</em>
+</td>
+<td align="center">
+  <strong>Particle Velocities</strong><br/>
+  <img src="NP_100_phi_0.5_Hertzian-Mindlin.gif" alt="particle trajectory and particle-particle contacts" width="410"/><br/>
+  <em>Particle trajectories and particle-particle contacts (Hertzian-Mindlin).</em>
+</td>
+</tr>
+</table>
+
+<!-- <p align="center">
   <strong>Simulation Movie</strong><br/>
   <img src="NP_100_phi_0.5_Hertzian-Mindlin.gif"
        alt="particle trajectory and particle-particle contacts"
        width="400"/><br/>
   <em>Particle trajectories and particle-particle contacts (Hertzian-Mindlin)</em>
 </p>
-<br/>
+<br/> -->
 
 **Analysis of Discrete Element Method (DEM) simulations with two contact models: Cundall-Strack and Hertz-Mindlin**
 
